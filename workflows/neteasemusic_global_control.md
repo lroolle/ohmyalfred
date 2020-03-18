@@ -14,7 +14,7 @@ Alfred 4 网易云全局控制！
 
 - 启动/打开网易云: 输入 `n` + 回车；
 - 退出网易云(正在运行): 输入 `n` + ⌥Option + 回车，此时 Alfred 输入框出现 `quit
-   NeteaseMusic`，再次输入回车；
+   NeteaseMusic`，再次输入回车退出；
 
 ## 2). `n` + 动作
 

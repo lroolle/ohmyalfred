@@ -45,13 +45,13 @@ else if query is equal to VOLUME_DOWN or query is equal to VOLUME_DOWN_SHORT the
     tell application "System Events" to tell process "NeteaseMusic"
 		click menu item 5 of menu 1 of menu bar item 4 of menu bar 1
 	end tell
-else if query is equal to LIKE or query is equal to LIKE then
+else if query is equal to LIKE or query is equal to LIKE_SHORT then
     tell application "System Events" to tell process "NeteaseMusic"
 		click menu item 6 of menu 1 of menu bar item 4 of menu bar 1
 	end tell
 else if query is equal to OPEN_LYRIC or query is equal to OPEN_LYRIC_SHORT then
     tell application "System Events" to tell process "NeteaseMusic"
-		click menu item 9 of menu 1 of menu bar item 4 of menu bar 1
+		click menu item 10 of menu 1 of menu bar item 4 of menu bar 1
 	end tell
 else if query is equal to QUIT_ or query is equal to QUIT_SHORT then
 	tell application "Alfred 4" to search "quit NeteaseMusic" 
