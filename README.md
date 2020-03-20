@@ -6,6 +6,12 @@ Alfred awesome workflows.
 
 ---
 
+# 下载
+
+> [Workflow Releases](https://github.com/lroolle/ohmyalfred/releases)
+
+---
+
 # 欧路快查
 
 Alfred 欧路快查！
