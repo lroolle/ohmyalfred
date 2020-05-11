@@ -2,13 +2,14 @@
 
 Alfred awesome workflows.
 
-主子您值得拥有！
+你值得拥有！
 
 ---
 
 # 下载
 
 > [Workflow Releases](https://github.com/lroolle/ohmyalfred/releases)
+
 
 ---
 
@@ -76,7 +77,7 @@ macOS Alfred 4 网易云全局快捷控制！
 
 ### 具体如下：
 
-|          |                |                |
+| 命令     | 含义           | 说明           |
 | -------- | -------------- | -------------- |
 | **`p`**  | `P`lay/`P`ause | 播放/暂停      |
 | **`n`**  | `N`ext         | 下一曲         |
@@ -91,3 +92,49 @@ macOS Alfred 4 网易云全局快捷控制！
 | **`v-`** | `V`olume+      | 降低音量       |
 | **`h`**  | `H`ide         | 隐藏窗口       |
 | **`q`**  | `Q`uit         | 退出网易云音乐 |
+
+
+---
+
+# Oh New Window 新建窗口
+
+> Alfred 快速新建窗口
+
+- 1). 输入 `o` + `应用名` + `回车`: 在当前 Workspace 打开新窗口；
+
+![](./screenshots/ohnewwindow_new_chrome.gif)
+
+- 2). 输入 `o` + `应用名` + `⌥Option` + `回车`: 在当前 Workspace 打开新隐身窗口；
+
+![](./screenshots/ohnewwindow_new_chrome_incognito.gif)
+
+
+### 当前支持应用
+
+* Finder
+* Chrome(隐身窗口支持)
+* Safari(隐身窗口支持)
+* Firefox(隐身窗口支持)
+* iTerm2
+* Alacritty(Only if "SpawnNewInstance" enabled and set keybindding CMD+N)
+
+
+---
+
+# Oh New Search 选中快速搜索
+
+
+> 选中文本（任意程序），敲击快捷键（`⇧Shift` + `⌘Command` + `S`）快速打开浏览器搜索
+
+
+
+
+
+
+---
+
+# Changelog
+
+
+* 20200511: Add Oh New Window & Oh New Search Workflows;
+
