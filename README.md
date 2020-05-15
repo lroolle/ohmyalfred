@@ -27,7 +27,7 @@ Alfred 欧路快查！
 
 ### 1). 关键词: `eu`
 
-**！！UPDATE：弃用 `eu` 关键词，该用 `e`，且可以不需输空格，比如输入 `eeasy`，会直接查询 `easy`! Oh easier huh?**
+**！！UPDATE！！： 弃用 `eu` 关键词，改用 `e`，且可以不需输空格，比如输入 `eeasy`，会直接查询 `easy`! Oh easier huh?**
 
 - 在 Alfred 搜索框输入 `eu` + `回车`: 打开欧路词典;
 
