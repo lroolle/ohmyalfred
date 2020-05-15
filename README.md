@@ -10,6 +10,12 @@ Alfred awesome workflows.
 
 > [Workflow Releases](https://github.com/lroolle/ohmyalfred/releases)
 
+# Workflows 目录
+
+- [欧陆快查](#欧陆快查): 欧陆词典快速查询
+- [网易云音乐全局操控](#网易云音乐全局操控): 网易云全局命令控制
+- [Oh New Search](#oh-new-search): 全局选中文本快速搜索
+- [Oh New Window](#oh-new-window): 在当前 Workspace 快速新建 Finder/Chrome/Safari 等窗口
 
 ---
 
@@ -21,13 +27,13 @@ Alfred 欧路快查！
 
 ### 1). 关键词: `eu`
 
--   在 Alfred 搜索框输入 `eu` + `回车`: 打开欧路词典;
+- 在 Alfred 搜索框输入 `eu` + `回车`: 打开欧路词典;
 
-    ![](./screenshots/eudicgo_eu_open.gif)
+  ![](./screenshots/eudicgo_eu_open.gif)
 
--   在 Alfred 搜索框输入 `eu apocalypse` + `回车`: 打开欧路词典并查词 `apocalypse`;
+- 在 Alfred 搜索框输入 `eu apocalypse` + `回车`: 打开欧路词典并查词 `apocalypse`;
 
-    ![](./screenshots/eudicgo_eu_lookup.gif)
+  ![](./screenshots/eudicgo_eu_lookup.gif)
 
 ### 2). 快捷键：`Shift-Command-E`
 
@@ -53,8 +59,8 @@ macOS Alfred 4 网易云全局快捷控制！
 
 ## 1). 关键词 `n`
 
--   启动/打开网易云: 在 Alfred 搜索框输入 `n` + `回车`；
--   退出网易云(正在运行时): 输入 `n`，按住 `⌥Option` + `回车`，此时 Alfred 输入框出现确认 `quit NeteaseMusic`，再次输入回车退出网易云音乐；
+- 启动/打开网易云: 在 Alfred 搜索框输入 `n` + `回车`；
+- 退出网易云(正在运行时): 输入 `n`，按住 `⌥Option` + `回车`，此时 Alfred 输入框出现确认 `quit NeteaseMusic`，再次输入回车退出网易云音乐；
 
 ![](./screenshots/neteasemusic_n_open_close.gif)
 
@@ -64,14 +70,14 @@ macOS Alfred 4 网易云全局快捷控制！
 
 比如:
 
--   输入 `np` + `回车` ([N]eteaseMusic [P]lay)，开始播放（如果网易云未打开会自动打开窗口）;
--   正在播放状态输入 `np` + `回车` ([N]eteaseMusic [P]ause)，暂停播放;
--   输入 `nly` + `回车` ([N]eteaseMusic [Ly]rics)，显示/隐藏歌词;
+- 输入 `np` + `回车` ([N]eteaseMusic [P]lay)，开始播放（如果网易云未打开会自动打开窗口）;
+- 正在播放状态输入 `np` + `回车` ([N]eteaseMusic [P]ause)，暂停播放;
+- 输入 `nly` + `回车` ([N]eteaseMusic [Ly]rics)，显示/隐藏歌词;
 
 ![](./screenshots/neteasemusic_np_nly.gif)
 
--   输入 `nn` + `回车` ([N]eteaseMusic [N]ext)，开始播放下一首;
--   输入 `nl` + `回车` ([N]eteaseMusic [L]ike)，添加到喜欢（或者取消喜欢）;
+- 输入 `nn` + `回车` ([N]eteaseMusic [N]ext)，开始播放下一首;
+- 输入 `nl` + `回车` ([N]eteaseMusic [L]ike)，添加到喜欢（或者取消喜欢）;
 
 ![](./screenshots/neteasemusic_nn_nl_npre.gif)
 
@@ -93,10 +99,9 @@ macOS Alfred 4 网易云全局快捷控制！
 | **`h`**  | `H`ide         | 隐藏窗口       |
 | **`q`**  | `Q`uit         | 退出网易云音乐 |
 
-
 ---
 
-# Oh New Window 新建窗口
+# Oh New Window
 
 > Alfred 快速新建窗口
 
@@ -108,33 +113,23 @@ macOS Alfred 4 网易云全局快捷控制！
 
 ![](./screenshots/ohnewwindow_new_chrome_incognito.gif)
 
-
 ### 当前支持应用
 
-* Finder
-* Chrome(隐身窗口支持)
-* Safari(隐身窗口支持)
-* Firefox(隐身窗口支持)
-* iTerm2
-* Alacritty(Only if "SpawnNewInstance" enabled and set keybindding CMD+N)
-
+- Finder
+- Chrome(隐身窗口支持)
+- Safari(隐身窗口支持)
+- Firefox(隐身窗口支持)
+- iTerm2
+- Alacritty(Only if "SpawnNewInstance" enabled and set keybindding CMD+N)
 
 ---
 
-# Oh New Search 选中快速搜索
-
+# Oh New Search
 
 > 选中文本（任意程序），敲击快捷键（`⇧Shift` + `⌘Command` + `S`）快速打开浏览器搜索
-
-
-
-
-
 
 ---
 
 # Changelog
 
-
-* 20200511: Add Oh New Window & Oh New Search Workflows;
-
+- 20200511: Add Oh New Window & Oh New Search Workflows;
