@@ -12,10 +12,10 @@ Alfred awesome workflows.
 
 # Workflows 目录
 
-- [欧陆快查](#欧陆快查): 欧陆词典快速查询
-- [网易云音乐全局操控](#网易云音乐全局操控): 网易云全局命令控制
-- [Oh New Search](#oh-new-search): 全局选中文本快速搜索
-- [Oh New Window](#oh-new-window): 在当前 Workspace 快速新建 Finder/Chrome/Safari 等窗口
+- [欧路快查](#欧路快查): 欧陆词典快速查词；
+- [网易云音乐全局操控](#网易云音乐全局操控): 网易云全局命令控制；
+- [Oh New Window](#oh-new-window): 在当前 Workspace 快速新建 Finder/Chrome/Safari 等应用窗口；
+- [Oh New Search](#oh-new-search): 全局选中文本快速搜索；
 
 ---
 
@@ -26,6 +26,8 @@ Alfred 欧路快查！
 ## Usage 开始使用
 
 ### 1). 关键词: `eu`
+
+**！！UPDATE：弃用 `eu` 关键词，该用 `e`，且可以不需输空格，比如输入 `eeasy`，会直接查询 `easy`! Oh easier huh?**
 
 - 在 Alfred 搜索框输入 `eu` + `回车`: 打开欧路词典;
 
@@ -126,10 +128,11 @@ macOS Alfred 4 网易云全局快捷控制！
 
 # Oh New Search
 
-> 选中文本（任意程序），敲击快捷键（`⇧Shift` + `⌘Command` + `S`）快速打开浏览器搜索
+> 选中文本（全局任意程序），敲击快捷键（`⇧Shift` + `⌘Command` + `S`）快速打开默认浏览器搜索文本；
 
 ---
 
 # Changelog
 
+- 20200516: Fix New Window if app is not ruunig;
 - 20200511: Add Oh New Window & Oh New Search Workflows;
